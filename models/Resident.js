@@ -1,7 +1,6 @@
 var mongoose = require('mongoose');
 
-var ResidentSchema = new mongoose.Schema({
-    id: String,
+var ResidentSchema = new mongoose.Schema({   
     address : String,
     numpeo: Number,
     detail_resID: String,

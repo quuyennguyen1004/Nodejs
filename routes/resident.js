@@ -1,6 +1,6 @@
 var express = require('express');
-var router = require.Router();
-var resident = require("");
+var router = express.Router();
+var resident = require("../controllers/ResidentController.js");
 
 router.get('/', async function(request,response){
    resident.list(request,response);
